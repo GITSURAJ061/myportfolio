@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +6,11 @@
 }
 
 :root {
-    --primary: #ff6b6b;
-    --secondary: #4ecdc4;
-    --accent: #ffe66d;
-    --dark: #2c3e50;
-    --light: #ffffff;
+    --primary: #6a11cb;       /* Purple */
+    --secondary: #2575fc;     /* Blue */
+    --accent: #00e3aa;        /* Mint */
+    --dark: #1e1e2f;          /* Dark Navy */
+    --light: #f5f7fa;         /* Almost White */
 }
 
 body {
@@ -35,7 +34,7 @@ body {
     object-fit: cover;
     padding: 2rem 5%;
     min-height: 100vh;
-    background-color: rgba(44, 62, 80, 0.9);
+    background-color: rgba(30, 30, 47, 0.9); /* Updated dark */
 }
 
 .hero-content {
@@ -67,7 +66,7 @@ body {
 .profile-image {
     width: 400px;
     height: 550px;
-     border-radius: 1%;
+    border-radius: 1%;
     object-fit: cover;
     border: 8px solid var(--light);
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
@@ -80,7 +79,7 @@ body {
 }
 
 nav {
-    background-color: rgba(44, 62, 80, 0.8);
+    background-color: rgba(30, 30, 47, 0.8);
     padding: 1rem;
     position: fixed;
     width: 100%;
@@ -124,7 +123,7 @@ nav a:hover::after {
 }
 
 .about, .projects, .contact {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(245, 247, 250, 0.95); /* lighter section */
     padding: 2rem;
     margin: 2rem 0;
     border-radius: 15px;
@@ -172,14 +171,14 @@ input, textarea {
     padding: 0.8rem;
     border: 2px solid transparent;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(245, 247, 250, 0.95);
     transition: all 0.3s ease;
 }
 
 input:focus, textarea:focus {
     border-color: var(--secondary);
     outline: none;
-    box-shadow: 0 0 10px rgba(78, 205, 196, 0.3);
+    box-shadow: 0 0 10px rgba(37, 117, 252, 0.3);
 }
 
 button {
@@ -201,7 +200,7 @@ button:hover {
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: rgba(44, 62, 80, 0.9);
+    background-color: rgba(30, 30, 47, 0.9);
     color: var(--light);
 }
 
