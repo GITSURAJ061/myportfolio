@@ -1,72 +1,261 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Suraj Koli | MERN Stack Developer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<body><div class="grid-bg"></div>
 
-    <section id="home" class="hero-section">
-        <div class="hero-content">
-            <h1 class="floating">Suraj koli</h1>
-            <p>Creative Web Developer</p>
-            <p>Building beautiful and interactive web experiences</p>
-        </div>
-        <div class="hero-image">
-            <img src="New folder/DSC_6680_new-01.jpeg" alt="Profile Picture" class="profile-image">
-        </div>
-    </section>
+<header class="navbar">
 
-    <div class="container">
-        <section id="about" class="about">
-            <h2>About Me</h2>
-            <p>I am a creative web developer passionate about building beautiful and interactive web experiences. With expertise in modern web technologies, I bring ideas to life through code.</p>
-        </section>
-
-        <section id="projects" class="projects">
-            <h2>My Projects</h2>
-            <div class="project-grid">
-                <div class="project-card floating">
-                    <h3>Project 1</h3>
-                    <p>An innovative e-commerce platform with dynamic animations and smooth transitions.</p>
-                </div>
-                <div class="project-card floating" style="animation-delay: 0.2s;">
-                    <h3>Project 2</h3>
-                    <p>Interactive dashboard with real-time data visualization and modern UI.</p>
-                </div>
-                <div class="project-card floating" style="animation-delay: 0.4s;">
-                    <h3>Project 3</h3>
-                    <p>Creative portfolio template with cutting-edge design and animations.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
-            <h2>Contact Me</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit" class="floating">Send Message</button>
-            </form>
-        </section>
+    <div class="logo">
+        Suraj.
     </div>
 
-    <footer>
-        <p>&copy; 2025 Suraj koli. All rights reserved.</p>
-    </footer>
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <section class="hero">
+
+        <div class="hero-badge">
+            MERN STACK DEVELOPER
+        </div>
+
+        <h1>
+            Building modern web
+            applications with
+            performance and
+            precision.
+        </h1>
+
+        <p>
+            I create scalable full-stack applications using
+            React, Node.js, Express, and MongoDB with a strong
+            focus on clean architecture and user experience.
+        </p>
+
+        <div class="hero-actions">
+
+            <a href="#projects" class="btn-primary">
+                View Projects
+            </a>
+
+            <a href="https://github.com/" class="btn-secondary">
+                GitHub
+            </a>
+
+        </div>
+
+    </section>
+
+    <section id="projects" class="projects">
+
+        <div class="section-header">
+            <span>Selected Work</span>
+            <h2>Projects that solve real problems.</h2>
+        </div>
+
+        <article class="project">
+
+            <div class="project-info">
+
+                <span class="project-number">
+                    01
+                </span>
+
+                <h3>
+                    E-Commerce Platform
+                </h3>
+
+                <p>
+                    Complete shopping platform with
+                    authentication, product management,
+                    payment integration and admin dashboard.
+                </p>
+
+                <div class="project-tech">
+                    React · Node · MongoDB · JWT
+                </div>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+            <div class="project-preview">
+
+                <div class="preview-card">
+                    Project Screenshot
+                </div>
+
+            </div>
+
+        </article>
+
+        <article class="project">
+
+            <div class="project-info">
+
+                <span class="project-number">
+                    02
+                </span>
+
+                <h3>
+                    Analytics Dashboard
+                </h3>
+
+                <p>
+                    Interactive dashboard with charts,
+                    reporting, authentication and role
+                    based access control.
+                </p>
+
+                <div class="project-tech">
+                    React · Express · MongoDB
+                </div>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+            <div class="project-preview">
+
+                <div class="preview-card">
+                    Dashboard Preview
+                </div>
+
+            </div>
+
+        </article>
+
+        <article class="project">
+
+            <div class="project-info">
+
+                <span class="project-number">
+                    03
+                </span>
+
+                <h3>
+                    Realtime Chat Application
+                </h3>
+
+                <p>
+                    Fast realtime messaging application
+                    powered by Socket.io with modern UI.
+                </p>
+
+                <div class="project-tech">
+                    React · Node · Socket.io
+                </div>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+            <div class="project-preview">
+
+                <div class="preview-card">
+                    Chat Application
+                </div>
+
+            </div>
+
+        </article>
+
+    </section>
+
+    <section id="stack" class="stack">
+
+        <div class="section-header">
+            <span>Technology Stack</span>
+            <h2>Tools I use every day.</h2>
+        </div>
+
+        <div class="stack-grid">
+
+            <div class="stack-card">React.js</div>
+            <div class="stack-card">Node.js</div>
+            <div class="stack-card">Express.js</div>
+            <div class="stack-card">MongoDB</div>
+            <div class="stack-card">JavaScript</div>
+            <div class="stack-card">Git</div>
+            <div class="stack-card">REST APIs</div>
+            <div class="stack-card">Tailwind CSS</div>
+
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+
+        <div class="section-header">
+            <span>About</span>
+            <h2>Focused on building products that matter.</h2>
+        </div>
+
+        <p>
+            I'm a MERN Stack Developer passionate about
+            transforming ideas into reliable digital products.
+            I enjoy creating fast interfaces, scalable APIs
+            and clean user experiences.
+        </p>
+
+    </section>
+
+    <section id="contact" class="contact">
+
+        <div class="section-header">
+            <span>Contact</span>
+            <h2>Let's build something together.</h2>
+        </div>
+
+        <div class="contact-links">
+
+            <a href="#">
+                GitHub
+            </a>
+
+            <a href="#">
+                LinkedIn
+            </a>
+
+            <a href="mailto:youremail@example.com">
+                Email
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>
+        © 2026 Suraj Koli
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
-
-
-
